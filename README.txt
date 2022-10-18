@@ -1,6 +1,6 @@
 - This "orbit" directory is a prototype of satellite orbit prediction which contains of two python modules
 
-	1. astrolib.py for julian date and sidereal time calculation.
+	1. astro.py for julian date and sidereal time calculation.
 	2. test_position.py is the "main" module to compute the satellite position which receive data from "data.csv" (like GNSS) 
 
 - When test_position is executed, there are 2 required input which are the current and future time index.
